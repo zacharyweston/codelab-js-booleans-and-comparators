@@ -1,25 +1,22 @@
-<DOCTYPE! html>
+<!DOCTYPE html>
   <html>
     <head>
       <title>Create a Pen Name!</title>
     </head>
-
-    <script>
-      var middleName = prompt("What is your middle name?");
-      var alphabet = prompt("What is the first letter of your first name?");
-      var age = prompt("How old are you?");
-      if (age <= 41) {
-        alert("Your nom de plume is " + middleName + " " + alphabet + ". Lucas.");
-      }
-      else if (age >= 43) {
-        alert("Your nom de plume is " + middleName + " " + alphabet + ". Asimov.");
-      }
-      else {
-        alert("Your nom de plume is " + middleName + " " + alphabet + ". Adams.");
-      }
-    </script>
-
     <body>
-
+      <script>
+        var middleName = prompt("What is your middle name?");
+        var alphabet = prompt("What is the first letter of your first name?");
+        var age = prompt("How old are you?");
+        if (age <= 41) {
+          alert("Your nom de plume is " + middleName + " " + alphabet + ". Lucas.");
+        }
+        else if (age >= 43) {
+          alert("Your nom de plume is " + middleName + " " + alphabet + ". Asimov.");
+        }
+        else {
+          alert("Your nom de plume is " + middleName + " " + alphabet + ". Adams.");
+        }
+      </script>
     </body>
   </html>
